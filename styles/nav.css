@@ -1,0 +1,255 @@
+nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 1vw 3vw 1vw 4vw;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.15);
+  background: white;
+  position: fixed;
+  margin: 0;
+  z-index: 100;
+  transition: background-color .5s
+}
+nav.active {
+  background-color: #09131f;
+}
+nav.active .navigation a{
+  color: white
+}
+nav.active .navigation #menu-button{
+  color: white;
+}
+nav.active .navigation a:hover{
+  color: rgb(223, 164, 16)
+}
+
+nav img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  background-position: contain;
+  background-size: cover;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  transition: all 0.2s ease;
+}
+
+.active {
+  color:rgb(223, 164, 16);
+}
+
+.nav-list a:hover {
+  color: rgb(223, 164, 16);
+}
+
+.nav-list a{
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-right: 30px;
+  color: #15273C;
+  font-weight: 600;
+}
+.nav-list {
+  color: #fff;
+}
+.login-button {
+  padding: 9px 18px;
+  border: 1px solid #15273C;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  color: #15273C;
+  background-color: white;
+  font-weight: 600 ;
+  text-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+}
+
+.login-button:hover {
+  background-color: #15273C;
+  color: white;
+}
+.close-icon {
+  color:rgba(12, 54, 110, 0.7);
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: black;
+  cursor: pointer;
+}
+.last-container.active {
+  visibility: hidden;
+  opacity: 0;
+  margin-right: -900px
+}
+.last-container {
+  position: relative;
+  background-color: white;
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 300px;
+  height: 220px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .15);
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 1;
+  transition: all .5s;
+  z-index: 100;
+}
+.last-container form a{
+  font-size: 13px;
+  margin-top: 3px
+}
+
+.login-input {
+  width: 100%;
+  margin: 5px  auto;
+  padding: 5px;
+  outline: none;
+}
+
+.last-container h1 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.log-button {
+  text-decoration: none;
+  margin: 20px auto;
+  width: 100px;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid rgb(12, 54, 110);
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: rgb(12, 54, 110);
+  transition: all 0.2s ease;
+  display: flex;
+  justify-content: center;
+}
+.log-button:hover {
+  color: rgb(5, 4, 46);
+  background-color: #fff;
+
+}
+.log-button:active{
+  filter: brightness(0.8)
+}
+
+.navigation {
+  display: flex
+}
+.navigation img{
+  cursor: pointer;
+}
+#menu-close{
+  display: none
+}
+#menu-button {
+  color: rgb(12, 54, 110);
+  display: none
+}
+
+
+@media (max-width: 769px) {
+  nav {
+    padding: 5px 20px
+  }
+  nav img {
+    width: 70px;
+}
+
+
+#menu-close{
+  display: initial;
+  position: absolute;
+  left: 10px;
+  top: 25px;
+  font-size: 1.3rem;
+
+}
+#menu-button {
+  color: rgb(12, 54, 110);
+  display: initial;
+  display: initial;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.nav-list.active {
+  right: 0
+}
+
+.nav-list {
+  position: absolute;
+  top: 0;
+  right: -550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  width: 60%;
+  height: 100vh;
+  background-color: rgba(12, 54, 110, 0.55);
+  backdrop-filter: blur(4.5px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  transition: all 0.55s ease;
+  z-index: 100;
+  align-items: center;
+
+}
+nav .navigation ul a {
+  margin: 20px 10px 20px 40px;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-right: 100px;
+  
+}
+nav .navigation ul li {
+  margin-right: 100px
+}
+.login-button {
+  padding: 8px 15px;
+  border: 1px solid rgba(12, 54, 110, 0.55);
+
+}
+.login-button:hover {
+  background-color: rgb(223, 164, 16);
+  color: white;
+  border: 1px solid rgb(223, 164, 16);
+}
+
+}
+
+@media (max-width: 500px){
+  .nav-list {
+    width: 70%;
+  }
+  nav .navigation ul a {
+    margin: 20px 5px 20px 40px;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  .nav-list.new{
+    filter: blur(5px) brightness(.7)
+  }
+ 
+}

@@ -1,0 +1,43 @@
+.blog-post {
+  margin: 0 auto;
+  margin-bottom: 11vw;
+  width: 60%;
+  text-align: justify;
+}
+.blog-image {
+  margin-top: 90px;
+}
+.blog-post h3{
+  padding-top: 60px
+}
+
+.blog-post p{
+  margin-bottom: 35px
+}
+
+
+@media (max-width: 480px){
+  .blog-post {
+    width: 85%;
+    margin-bottom: 30vw;
+  } 
+  .blog-post h3{
+    margin-top: 40px
+  }
+}
+@media (max-width: 769px){
+  .blog-post {
+    width: 85%;
+  } 
+  .blog-post h3{
+    margin-top: 40px
+  }
+}
+@media (max-width: 900px) {
+  .blog-post {
+    width: 75%;
+  } 
+  .blog-post h3{
+    margin-top: 40px
+  }
+}

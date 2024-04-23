@@ -1,0 +1,122 @@
+.blog {
+  width: 100%;
+  padding: 16vw 6vw 13vw 6vw;
+  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46,0.7)), 
+  url("/images/school4.jpg");
+  background-repeat: no repeat;
+  background-position: contain;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.blog h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.all-containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8vw;
+}
+.blog-containers {
+  width: 60%
+}
+.blog-image {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.15);
+}
+.blog-cont{
+  margin-bottom: 60px;
+}
+.blog-cont h3 {
+  color: #30303B;
+  margin: 15px 0 10px 0;
+}
+.blog-cont p{
+  color: rgb(102, 101, 101);
+  margin-bottom: 25px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.blog-cont a {
+  text-decoration: none;
+  padding: 13px 23px;
+  border: 1px solid #09131f;
+  border-radius: 5px;
+  color: white;
+  background-color: #09131f;
+  transition: all 0.2s ease;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: .9rem;
+  font-weight: 600;
+}
+.blog-cont a:hover {
+  color: #09131f;
+  border: 1px solid #09131f;
+  background-color: #fff;
+}
+.blog-cont a:active {
+  filter: brightness(0.8)
+}
+.categories {
+  width: 30%;
+ 
+}
+.categories h2 {
+  width: 30%;
+  color: #30303B;
+  margin-bottom: 15px;
+  display: flex;
+}
+.categories a{
+  text-decoration: none;
+  color: rgb(102, 101, 101);
+  line-height: 45px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family:  "Roboto", Arial, Helvetica, sans-serif;
+}
+@media (max-width: 769px){
+  .blog {
+    padding: 20vw 6vw 13vw 6vw;
+  }
+  .blog h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  .all-containers {
+    padding: 8vw 4vw;
+    
+  }
+  .categories a{
+    text-decoration: none;
+    color: rgb(102, 101, 101);
+    line-height: 40px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 638px){
+  .blog {
+    padding: 35vw 25vw 20vw 25vw;
+  }
+  .all-containers {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4vw;
+  }
+  .blog-containers {
+    width: 100%
+  }
+  .categories {
+    width: 50%;
+  }
+
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/nav.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/sections.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="images/title.png">
+  <title>Education University</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="js-nav new">
+    <a href="home.html"><img src="images/4.png"></a>
+    <div class="navigation">
+      <ul class="nav-list">
+        <a href="#"><i id="menu-close" class="fas fa-times"></i></a>
+        <a href="home.html"><li class="active">Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="blog.html"><li>Blog</li></a>
+        <a href="courses.html"><li>Courses</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+        <a href="#"><li class="login-button">Login Here</li></a>
+       
+      </ul>
+      <div class="last-container active">
+        <h1>
+          Login Here
+        </h1> 
+        <form>
+          <input class="login-input" type="email" name="email" placeholder="Enter your email">
+          <input class="login-input" type="password" name="password" placeholder="Password">
+          <a href="#">Register here</a>
+          <button type="sumbit" class="log-button">Login</button> 
+        </form>
+        <i class="fa fa-times fa close-icon"></i>
+      </div>
+      <i class="fas fa-bars" id="menu-button"></i>
+    </div>
+  </nav>
+
+  <!-- home -->
+  <section class="home">
+    <h1>Enhance Your Future With Best Education</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vel, 
+      autem recusandae tenetur adipisci sapiente ad! Maiores quod autem 
+      perferendis reiciendis magni nesciunt alias eveniet nihil illo qui! Excepturi, porro.
+    </p>
+    <div class="buttons">
+    <a class="learn-more-button" href="about.html">Learn More</a>
+    <a class="visit-courses-button" href="courses.html">Visit Courses</a>
+    </div>
+  </section>
+  <!-- features -->
+  <section class="features js-navbar-bg">
+    <h1>Awesome Feature</h1>
+    <p>
+      Replenish man have thing gathering lights yielding shall you
+    </p>
+    <div class="feature-container">
+      <div class="container">
+        <i class="fas fa-graduation-cap"></i>
+        <h3>Scholarship Facility</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Explicabo.
+      </div>
+      <div class="container">
+        <i class="fa fa-file-text-o"></i>
+        <h3>Dell Online Course </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Explicabo.
+        </p>
+      </div>
+      <div class="container">
+        <i class="fas fa-award"></i>
+        <h3>Global Certification</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Explicabo.
+        </p>
+      </div> 
+    </div>
+  </section>
+
+  <!-- Courses -->
+  <section class="courses">
+    <h1>Our Popular Courses</h1>
+    <p>
+      Replenish man have thing gathering lights yielding shall you
+    </p>
+    <div class="main-container">
+      <div  onclick="window.location.href='courses/webdev.html'" class="image-container">
+        <img src="/images/blog5.jpg">
+        <div class="image-info">
+          <p>Updated 21/08/24</p>
+          <h3>Web Development Course</h3>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span id="star" class="fa fa-star"></span>
+          <span id="star" class="fa fa-star"></span>
+          <span class="number">(199)</span>
+        </div>
+        <div class="price">
+          $49.99
+        </div>
+      </div>
+      <div onclick="window.location.href='courses/app-dev.html'"class="image-container">
+        <img src="/images/blog4.jpg">
+        <div class="image-info">
+          <p>Updated 21/08/24</p>
+          <h3>App Development Course</h3>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span id="star"class="fa fa-star"></span>
+          <span id="star"class="fa fa-star"></span>
+          <span id="star"class="fa fa-star"></span>
+          <span class="number">(103)</span>
+        </div>
+        <div class="price">
+          $49.99
+        </div>
+      </div>
+      <div onclick="window.location.href='courses/web-des.html'" class="image-container">
+        <img src="/images/blog8.jpg">
+        <div class="image-info">
+          <p>Updated 21/08/24</p>
+          <h3>Web Design Course</h3>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="number">(239)</span>
+        </div>
+        <div class="price">
+          $49.99
+        </div>
+      </div>
+      <div onclick="window.location.href='courses/front.html'" class="image-container">
+        <img src="/images/blog2.jpg">
+        <div class="image-info">
+          <p>Updated 21/08/24</p>
+          <h3>Frontend Web Course</h3>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span id="star"class="fa fa-star"></span>
+          <span class="number">(219)</span>
+        </div>
+        <div class="price">
+          $49.99
+        </div>
+      </div>
+      <div onclick="window.location.href='courses/pythonProgram.html'" class="image-container">
+        <img src="/images/pic 5.jpg">
+        <div class="image-info">
+          <p>Updated 21/08/24</p>
+          <h3>Python Programming</h3>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="number">(239)</span>
+        </div>
+        <div class="price">
+          $49.99
+        </div>
+      </div>
+      <div onclick="window.location.href='courses/javaHack.html'" class="image-container">
+        <img src="/images/blog7.jpg">
+        <div class="image-info">
+          <p>Updated 21/08/24</p>
+          <h3>JavaScripts Hacks Course</h3>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span id="star"class="fa fa-star"></span>
+          <span class="number">(222)</span>
+        </div>
+        <div class="price">
+          $49.99
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration -->
+  <section class="registration">
+    <div class="reminder">
+      <p>Get 100 Online Courses for Free</p>
+      <h1>Register To Get It</h1>
+      <div class="time">
+        <div class="timer">
+          <span class="js days">00</span>  
+          <span>Days</span>
+        </div>
+        <div class="timer">
+          <span class="js hours">00</span> 
+          <span>Hour</span>
+        </div>
+        <div class="timer">
+          <span class="js minutes">00</span> 
+          <span>Min</span>
+        </div>
+        <div class="timer">
+          <span class="js seconds">00</span>           
+          <span>Sec</span>
+        </div>
+      </div>
+    </div>
+    <div class="form">
+      <h2>Create Free Account NOW!</h2>
+      <input type="name" name="name" placeholder="Name">
+      <input type="email" name="email" placeholder="Email Address">
+      <input type="password" name="password" class="password" placeholder="Password">
+      <input type="password" name="password" class="password" placeholder="Confirm Password">
+      <button class="submit-button" type="submit">Register</button>
+    </div>
+  </section>
+
+  <!-- Profile -->
+  <section class="profile">
+    <h1>Community Experts</h1>
+    <p>
+      Replenish man have thing gathering lights yielding shall you
+    </p>
+    <div class="main-profile-container">
+      <div class="profile-container">
+        <img src="/images/profile5.jpg">
+        <h3>John Stones</h3>
+        <p>Javascript and Design Expert</p>
+        <div class="social-media-icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="profile-container">
+        <img src="/images/profile2.jpg">
+        <h3>Samuel Kork</h3>
+        <p>Python & algorithm Expert</p>
+        <div class="social-media-icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="profile-container">
+        <img src="/images/profile3.jpg">
+        <h3>Nicholas Cage Snr</h3>
+        <p>C++ & Design Expert</p>
+        <div class="social-media-icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="profile-container">
+        <img src="/images/profile4.jpg">
+        <h3>Simons Robben</h3>
+        <p>Data Science Expert</p>
+        <div class="social-media-icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="last-section">
+    <div class="main-footer">
+      <div class="footer">
+        <h2>Top Products</h2>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Manages Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer">
+        <h2>Quick Links</h2>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+        <li>Invester Relations</li>
+        <li>Terms of Service</li>
+      </div>
+      <div class="footer">
+        <h2>Features</h2>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Manages Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer">
+        <h2>Resources</h2>
+        <li>Guides</li>
+        <li>Marketing Service</li>
+        <li>Experts</li>
+        <li>Research</li>
+      </div>
+      <div class="footer">
+        <h2>Newsletter</h2>
+        <p>You can trust us we only send promo offers</p>
+        <div class="input-footer">
+          <input type="email" name="email" placeholder="Your Email Address">
+          <a class="subscribe" href="#">SUBSCRIBE</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-footer">
+      <div class="copyright">
+        <h2>Copyright @2024 All rights reserved | This template is made by Sam.</h2>
+      </div>
+      <div class="icons">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+    </div>
+  </section>
+  <script src="scripts/reminder.js"></script>
+  <script src="scripts/home.js"></script>
+</body>
+</html>
