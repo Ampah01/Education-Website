@@ -1,12 +1,12 @@
 .home {
-  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46,0.7)), 
-  url("/images/pic\ 1.jpg");
+  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
+    url("/images/pic\ 1.jpg");
   background-repeat: no repeat;
   background-position: contain;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 80vh;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -16,8 +16,7 @@
 .home h1 {
   color: #fff;
   font-weight: 600;
-  font-size: 2.5rem;
-
+  font-size: 2rem;
 }
 .home p {
   margin-top: 10px;
@@ -26,15 +25,15 @@
   line-height: 1.5;
   letter-spacing: 0px;
 }
-.buttons { 
+.buttons {
   margin-top: 20px;
 }
-.buttons a{
+.buttons a {
   text-decoration: none;
 }
 .learn-more-button {
   padding: 10px 25px;
-  border: 1px solid rgba(5, 4, 46,0.7);
+  border: 1px solid rgba(5, 4, 46, 0.7);
   border-radius: 5px;
   color: white;
   font-weight: 500;
@@ -43,16 +42,16 @@
 }
 .learn-more-button:active,
 .visit-courses-button:active {
-  filter: brightness(0.8)
+  filter: brightness(0.8);
 }
 .visit-courses-button {
-  font-family:  "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   padding: 10px 25px;
-  border: 1px solid   rgb(223, 164, 15);
+  border: 1px solid rgb(223, 164, 15);
   border-radius: 5px;
   color: white;
   font-weight: 500;
-  background-color:   rgb(223, 164, 16);
+  background-color: rgb(223, 164, 16);
   transition: all 0.2s ease;
 }
 .visit-courses-button:hover,
@@ -68,8 +67,8 @@
 }
 
 .features h1 {
-  color:  rgb(12, 54, 110);
-  font-size: 2.5rem;
+  color: rgb(12, 54, 110);
+  font-size: 2rem;
 }
 .features p {
   color: rgb(102, 101, 101);
@@ -85,7 +84,7 @@
 .features .container {
   margin-top: 20px;
   text-align: start;
-  background-color:#f9f9ff;
+  background-color: #f9f9ff;
   padding: 20px;
   cursor: pointer;
   transition: all 0.15s ease;
@@ -93,28 +92,28 @@
 .features .container:active {
   transform: scale(1.05);
 }
-.features .feature-container i{
-  font-size: 2rem ;
-  color:rgb(44, 44, 80);
+.features .feature-container i {
+  font-size: 2rem;
+  color: rgb(44, 44, 80);
   padding: 10px;
-}   
-.features .feature-container h3{
+}
+.features .feature-container h3 {
   font-size: 1.1rem;
-  font-weight: 600;;
+  font-weight: 600;
   color: rgb(46, 44, 60);
-  padding: 10px
+  padding: 10px;
 }
 .features .feature-container p {
   color: rgb(150, 147, 147);
-  padding: 0 10px
+  padding: 0 10px;
 }
 .courses {
   padding: 8vw 4vw 0 4vw;
   text-align: center;
 }
 .courses h1 {
-  font-size: 2.5rem;
-  color: rgb(12, 54, 110)
+  font-size: 2rem;
+  color: rgb(12, 54, 110);
 }
 .courses p {
   color: rgb(102, 101, 101);
@@ -129,20 +128,20 @@
   cursor: pointer;
   transition: all 0.15s ease;
 }
-#star{
+#star {
   color: rgb(133, 128, 128);
 }
 .image-container:active {
   transform: scale(1.05);
 }
-.image-container img{
+.image-container img {
   width: 100%;
   height: 60%;
   background-size: cover;
   background-position: center;
   margin-bottom: 0;
 }
-.image-container p{
+.image-container p {
   margin-top: 10px;
   font-size: 0.9rem;
   margin-bottom: 0;
@@ -151,17 +150,17 @@
 .image-container h3 {
   margin-top: 8px;
   color: rgb(12, 54, 110);
-  font-size: 1.1rem
+  font-size: 1.1rem;
 }
 .image-container span {
   color: rgb(223, 164, 16);
-  margin-top: 5px
+  margin-top: 5px;
 }
-.image-container .number{
+.image-container .number {
   color: rgb(102, 101, 101);
   font-size: 0.9rem;
 }
-.image-container a{
+.image-container a {
   text-decoration: none;
 }
 .image-info {
@@ -180,7 +179,7 @@
   position: absolute;
   right: 20px;
   bottom: 90px;
-  padding-left: 10px
+  padding-left: 10px;
 }
 .main-container {
   margin-top: 40px;
@@ -195,26 +194,29 @@
   gap: 2rem;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(rgba(99, 115, 168, 0.5), rgba(81, 91, 233,0.5)), 
-  url("/images/pic\ 13.jpg");
+  background-image: linear-gradient(
+      rgba(99, 115, 168, 0.5),
+      rgba(81, 91, 233, 0.5)
+    ),
+    url("/images/pic\ 13.jpg");
   height: 100%;
   width: 100%;
 }
 .reminder {
-  margin-bottom: 120px
+  margin-bottom: 120px;
 }
 .reminder p {
-  font-family:  "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
   color: #fff;
   font-size: 1.1rem;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 .reminder h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 900;
   color: #fff;
   padding: 0 10px;
@@ -225,11 +227,11 @@
   display: flex;
   text-align: center;
 }
-.timer{ 
+.timer {
   color: #fff;
   font-size: 1.2rem;
   font-weight: 500;
-  height:80px;
+  height: 80px;
   width: 100px;
   border-radius: 10px;
   margin: 5px;
@@ -267,18 +269,18 @@
 .form input::placeholder {
   font-size: 1rem;
 }
-.form a{
+.form a {
   text-decoration: none;
   margin-top: 18px;
-  width: 150px
+  width: 150px;
 }
 .profile {
   padding: 8vw;
   text-align: center;
 }
 .profile h1 {
-  font-size: 2.5rem;
-  color: rgb(12, 54, 110)
+  font-size: 2rem;
+  color: rgb(12, 54, 110);
 }
 .profile p {
   color: rgb(102, 101, 101);
@@ -290,41 +292,41 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   grid-gap: 1rem;
-  height: 100%
+  height: 100%;
 }
 .profile-container {
   background-color: #f9f9ff;
-  padding: 30px 20px
+  padding: 30px 20px;
 }
-.profile-container img{
+.profile-container img {
   width: 170px;
   height: 170px;
   border-radius: 170px;
   cursor: pointer;
   background-position: contain;
   background-size: cover;
-  border: 10px solid #fff
+  border: 10px solid #fff;
 }
 .social-media-icons {
-  margin-top: 10px
+  margin-top: 10px;
 }
-.social-media-icons a{
+.social-media-icons a {
   text-decoration: none;
-  color:#15273C;
+  color: #15273c;
   font-size: 1.2rem;
   padding: 7px 12px;
-  border: 1px solid #15273C;
+  border: 1px solid #15273c;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.social-media-icons a:hover{
+.social-media-icons a:hover {
   background-color: rgb(12, 54, 110);
-  color: #fff
+  color: #fff;
 }
 .last-section {
   padding: 6vw;
   text-align: start;
-  background-color:  #0a1725;
+  background-color: #0a1725;
   align-items: start;
 }
 .main-footer {
@@ -337,7 +339,7 @@
 .footer {
   line-height: 2.3;
 }
- .footer h2 {
+.footer h2 {
   color: #fff;
   opacity: 0.98;
   font-family: Arial, Helvetica, sans-serif;
@@ -346,7 +348,7 @@
 .footer li {
   color: #808080;
   opacity: 0.7;
-  font-family:  "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1rem;
   cursor: pointer;
@@ -354,17 +356,17 @@
   list-style: none;
 }
 .footer li:hover {
-  color: #fff
+  color: #fff;
 }
 
 .input-footer {
   display: flex;
   margin-top: 10px;
-} 
+}
 .footer p {
   color: #808080;
   opacity: 0.7;
-  font-family:  "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -372,26 +374,26 @@
   padding: 5px;
   width: 180px;
   font-size: 0.95rem;
-  background-color:#223f5e;
+  background-color: #223f5e;
   border: none;
   color: #b3b1b1;
   opacity: 0.7;
-  font-family:  "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
 .input-footer input::placeholder {
   font-size: 0.95rem;
-  font-family:  "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
   border: none;
 }
 .subscribe {
-  font-family:  "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   padding: 5px 13px;
-  border: 1px solid   rgb(223, 164, 15);
+  border: 1px solid rgb(223, 164, 15);
   color: rgb(12, 54, 110);
   font-weight: 500;
-  background-color:   rgb(223, 164, 16);
+  background-color: rgb(223, 164, 16);
   transition: all 0.2s ease;
   text-decoration: none;
 }
@@ -400,7 +402,7 @@
   color: rgb(5, 4, 46);
   border: 1px solid rgb(5, 4, 46);
   background-color: #fff;
-  border: 1px solid #fff
+  border: 1px solid #fff;
 }
 .copyright-footer {
   margin-top: 50px;
@@ -416,7 +418,7 @@
   font-weight: 500;
   opacity: 0.92;
 }
-.copyright-footer a{
+.copyright-footer a {
   color: #fff;
   text-decoration: none;
   background-color: #375474;
@@ -425,10 +427,8 @@
 }
 .copyright-footer a:hover {
   background-color: rgb(223, 164, 15);
-  color:rgb(12, 54, 110)
+  color: rgb(12, 54, 110);
 }
-
-
 
 @media (max-width: 769px) {
   .home h1 {
@@ -437,110 +437,111 @@
   .features {
     padding: 12vw 6vw 0 6vw;
     text-align: center;
- }
- .courses {
-  padding: 12vw 6vw 0 6vw;
-  text-align: center;
- }
- .time {
-  display: flex;
-  flex-wrap: wrap;
-}
- .form {
-  margin-top: 40px
-}
-.reminder {
-  margin-bottom: 0
-}
-.timer {
-  padding: 10px 25px;
-  display: flex;
-  margin-top: 5px
- }
- .profile {
-  padding: 12vw 6vw 10vw 6vw;
-  text-align: center;
- }
- .main-footer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.2rem;
-}
-.copyright-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 2rem
-}
+  }
+  .courses {
+    padding: 12vw 6vw 0 6vw;
+    text-align: center;
+  }
+  .time {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form {
+    margin-top: 40px;
+  }
+  .reminder {
+    margin-bottom: 0;
+  }
+  .timer {
+    padding: 10px 25px;
+    display: flex;
+    margin-top: 5px;
+  }
+  .profile {
+    padding: 12vw 6vw 10vw 6vw;
+    text-align: center;
+  }
+  .main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
+  .copyright-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+  }
 }
 @media (max-width: 864px) {
   .home h1 {
     padding: 10px;
   }
   nav {
-    padding: 5px 20px
+    padding: 5px 20px;
   }
   nav img {
     width: 70px;
-}
+  }
   .features {
     padding: 12vw 6vw 0 6vw;
     text-align: center;
- }
- .courses {
-  padding: 12vw 6vw 0 6vw;
-  text-align: center;
- }
+  }
+  .courses {
+    padding: 12vw 6vw 0 6vw;
+    text-align: center;
+  }
 
- .form {
-  margin-top: 40px
-}
+  .form {
+    margin-top: 40px;
+  }
 
- .profile {
-  padding: 12vw 6vw 10vw 6vw;
-  text-align: center;
- }
- .time {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-.timer {
-  display: flex;
- }
- .main-footer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.2rem;
-}
-.copyright-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 2rem
-}
-.copyright-footer h2 {
-  font-size: 2.2vmax;
-}
+  .profile {
+    padding: 12vw 6vw 10vw 6vw;
+    text-align: center;
+  }
+  .time {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .timer {
+    display: flex;
+  }
+  .main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
+  .copyright-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  .copyright-footer h2 {
+    font-size: 2.2vmax;
+  }
 }
 @media (max-width: 650px) {
   nav img {
     width: 50px;
-    height: 50px
+    height: 50px;
   }
-  h1{
-    font-size: 1.8rem;
+  h1 {
+    font-size: 1.5rem;
   }
+
   .main-container {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
   }
- .registration {
-  display: flex;
-  flex-direction: column;
+  .registration {
+    display: flex;
+    flex-direction: column;
   }
   .reminder p {
     display: flex;
@@ -559,18 +560,18 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    }
+  }
   .form input {
     border: 1px solid black;
-      width: 250px;
-      padding: 10px;
-      margin-top: 20px;
-    }
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+  }
   .copyright-footer h2 {
     font-size: 2vmax;
   }
-  .input-footer{
-    height: 35px
+  .input-footer {
+    height: 35px;
   }
   .input-footer input {
     width: 170px;
@@ -580,19 +581,17 @@
   }
   .input-footer input::placeholder {
     font-size: 0.85rem;
-    font-family:  "Roboto", Arial, Helvetica, sans-serif;
-
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
   }
   .subscribe {
     border: none;
     display: flex;
     align-items: center;
     padding: 8px;
-    font-size: .9rem;
+    font-size: 0.9rem;
     height: 35px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     vertical-align: top;
-  
   }
 }
